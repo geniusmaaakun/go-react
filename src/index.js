@@ -1,15 +1,16 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import AppFooter from './footer';
+import './index.css';
 
 class App extends Component {
 
   render() {
     return (
-      <Fragment>
+      <div>
         <h1>Hello, world!</h1>
         <AppFooter />
-      </Fragment>
+      </div>
     );
   }
 }
